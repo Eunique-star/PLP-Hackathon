@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="My First PLP Hackathon Project - Portfolio created and design with HTML and CSS only">
+    <title>A Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+     <header>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#interests">Interests</a>
+            <a href="#project">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+       
+        <div class="profile">
+            <img src="/my_profile_pic2.jpg" alt="My profile picture" width="250px">
+            <h1>Eunice Ohilebo</h1>
+            <p>Software Developer</p>
+        </div>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I'm an aspiring software developer with a background in Computer Science and a passion for creating meaningful digital solutions.
+                Currently, I teach computer skills to beginners, helping them navigate tools like Microsoft Office and build confidence in using technology.
+            </p>
+            <p>I'm still growing my skills in software development, with hands-on experience in <strong>HTML</strong>, <strong>CSS</strong>
+                and a touch of <strong>JavaScript</strong>. I enjoy transforming my ideas into reality through clean and creative web projects.
+                My ultimate goal is to become a full-stack developer, capable of building both frontend and backend solutions that can make a positive
+                impact in my community.
+            </p>
+            <p>Beyond coding, I love to write and explore creative ways to tell stories through technology. Every project I work on is a step toward mastering
+                my craft and sharing my passion for innovation with the world.
+            </p>
+        </section>
+        <section id="education">
+            <h2>Educational Background</h2>
+            <ul>
+                <li><strong>Auchi Polytechnic, Auchi, Edo state, Nigeria | 2019 - 2022</strong>
+                    <p>Higher National Diploma (HND), Computer Science </p>
+                </li>
+                <li><strong>Complete Computers Technology Institute, Benin City, Edo state, Nigeria | 2016 - 2018</strong></li>
+                    <p>National Diploma (ND), Networking and System Security</p>
+            </ul>
+        </section>
+        
+        <section id="interests">
+            <h2>My Interests</h2>
+            <p> Outside of coding, I enjoy exploring the world of technology, discovering new tools, and finding inspiration in creative ideas.
+                My hobbies and professional passions often overlap, making learning an exciting journey every day.
+            </p>
+            <div class="interests-container">
+                <h3>My personal interests include:</h3>
+                <div class="interest">
+                    <i class="fas fa-book-open"></i>
+                    <span>Reading</span>
+                </div>
+
+                <div class="interest">
+                    <i class="fas fa-pen-nib"></i>
+                    <span>Writing</span>
+                </div>
+
+                <div class="interest">
+                    <i class="fas fa-robot"></i>
+                    <span>Exploring Generative AI</span>
+                </div>
+
+                <div class="interest">
+                    <i class="fas fa-music"></i>
+                    <span>Listening to Music</span>
+                </div>
+
+                <h3>My professional interests include:</h3>
+                <div class="interest">
+                    <i class="fas fa-code"></i>
+                    <span>Web Develoment</span>
+                </div>
+
+                <div class="interest">
+                    <i class="fas fa-laptop-code"></i>
+                    <span>Software Engineering</span>
+                </div>
+
+                <div class="interest">
+                    <i class="fas fa-brain"></i>
+                    <span>Artificial Intelligence</span>
+                </div>
+            </div>
+        </section>
+        
+        <section id="project">
+            <h2>My Projects</h2>
+            <h3>Rural Health:</h3>
+            <p>This project is a website that caters to people leaving in rural areas, in which they can get access to essential information on their health. 
+                This website aims to add features like text to speech and the use of different languages that users can select from, based on their preferences.</p>
+            <button class="button project"><a href="https://github.com/Eunique-star/Rural-Health.git" target="_blank">Github</a></button>
+            <button class="button project"><a href="https://rural-health.netlify.app/" target="_blank">Live demo</a></button>
+
+            <h3>Picture Gallery:</h3>
+            <p>This project  is picture gallery design with HTML, CSS and a little bit of JavaScript</p>
+             <button class="button project"><a href="https://github.com/Eunique-star/PictureGallery.git" target="_blank">Github</a></button>
+             <button class="button project"><a href=https://eunique-star.github.io/PictureGallery/ target="_blank">Live Demo</a></button>
+           
+        </section>
+
+        <section id="cv">
+            <h2>My CV</h2>
+            <p>You can download my CV below:</p>
+            <a href="Eunice_Ohilebo_CV.pdf" download><button class="button download">Download</button></a>
+        </section>
+
+        <section id="contact">
+            <h2>My Contact Form</h2>
+            <p>I am open for collaborations and working with you. Whether you are an employer or just want to collaborate with me for a project, kindly fill the form below to reach me.</p>
+            <form action="">
+                <label for="first_name">First Name:</label>
+                <input type="text" id="first_name" name="first_name"><br>
+                
+                <label for="last_name">Last Name:</label>
+                <input type="text" id="last_name" name="last_name"><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br>
+
+                <label for="phone_no">Phone Number:</label>
+                <input type="tel" id="phone_no" name="phone_no"><br>
+
+                <label for="comments">What is your purpose for contacting me?</label>
+                <textarea rows="5" cols="85" id="comments" name="comments"></textarea><br>
+                <button class="button">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>       
+            <a href="https://www.linkedin.com/in/eunice-ohilebo-005a98313" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://x.com/EuniceOhilebo?t=GUF9DowFQ0sBAdPhtOBUjQ&s=09" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://github.com/Eunique-star" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="mailto:euniceohilebo05@gmail.com"><i class="fas fa-envelope"></i></a>
+            <p>&copy; 2025 Eunice Ohilebo - PLP. All rights reserved.</p>
+            <p><a href="#top">Back to Top ↑</a></p>
+        </footer>
+</body>
+</html>
+<a href="mailto:eunice@example.com"></a
