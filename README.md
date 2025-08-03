@@ -60,7 +60,7 @@ This project is for educational and personal portfolio purposes. Feel free to re
 
 ---
 
-This is the github page link:
-
+This is the github page link for deployment:
+https://eunique-star.github.io/PLP-Hackathon/
 
 Made with 💻 & ❤️ by **Eunice Ohilebo**
